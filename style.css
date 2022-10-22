@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+
+body {
+    background-color: #141519;
+}
+
+
+.container{
+    width: 450px;
+    height: 450px;
+    background-color: #1f2630;
+    border-radius: 20px;
+    position: relative;
+    left: 600px;
+    top: 150px;
+    display: inline-block;
+
+}
+.options-all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1.5rem;
+
+    margin-top: 1rem;
+}
+
+.image {
+    background: #121821;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 0px 0px 25px;
+
+}
+
+img {
+    width: 17px;
+    height: 16px;
+}
+
+.options label input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.options label p {
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #121821;
+    border-radius: 50%;
+}
+.options label input:checked ~ p{
+    color: whitesmoke;
+    background-color: hsl(25, 97%, 53%);
+}
+
+
+
+input {
+    border: none;
+    font-size: 20px;
+    border-radius: 100%;
+    background:#121821 ;
+    height: 40px;
+    color: white;
+    width: 40px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+
+h1 {
+    color: white;
+    margin-left: 20px;
+    margin-top: 5%;
+}
+
+.p1 {
+    color: white;
+    margin-left: 7px;
+    font-size: 15px;
+    margin-top: 4%;
+    text-align: center;
+}
+
+button {
+    width: 80%;
+    height: 8.5%;
+    margin-left: 45px;
+    border-radius: 15px;
+    background-color: hsl(25, 97%, 53%);
+    margin-top: 6%;
+    color: white;
+    font-weight: normal;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+footer {
+    color: #959EAB;
+    text-align: center;
+    display: block;
+    margin: 20px 0;
+}
+
+a {
+    text-decoration: none;
+    color:#959EAB;
+    margin-left: 10px;
+}
+.thank-you {
+    width: 162px;
+    height: 108px;
+    margin: 15px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+}
+    
+
+h2 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin: 10px auto;
+    text-align: center; 
+    
+}
+p {
+    color: #959EAB;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 10px auto;
+    text-align: justify;
+}
+
+
+.container2{        
+    width: 450px;
+    height: 450px;
+    background-color: #1f2630;
+    border-radius: 20px;
+    position: relative;
+    left: 600px;
+    top: 150px;
+    display: none;
+
+}
+.thank-you-paragrafo{
+    padding: 10px auto;
+    text-align: center;
+    
+}
+
+.section{
+margin: 100px auto;
+}
