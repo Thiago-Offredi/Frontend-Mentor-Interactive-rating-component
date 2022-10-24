@@ -8,7 +8,10 @@
 }
 
 body {
-    background-color: #141519;
+    background-color: #141414;
+    width: 100vw;
+    height: 100vh;
+  
 }
 
 
@@ -17,10 +20,14 @@ body {
     height: 450px;
     background-color: #1f2630;
     border-radius: 20px;
-    position: relative;
-    left: 600px;
-    top: 150px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
     display: inline-block;
+    text-align: center;
 
 }
 .options-all{
@@ -28,7 +35,6 @@ body {
     align-items: center;
     justify-content: center;
     column-gap: 1.5rem;
-
     margin-top: 1rem;
 }
 
