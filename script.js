@@ -22,5 +22,4 @@ const pressButton = () => {
     paragraph.innerText = `Você selecionou a nota ${result[0]} de ${optionsList.length}`
   }
 }
-
 button.addEventListener('click', pressButton);
